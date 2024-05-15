@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xdaboris</title>
+    <style>
+        /* Random background colors */
+        #home { background-color: #f44336; }
+        #about { background-color: #ff9800; }
+        #portfolio { background-color: #4caf50; }
+        #contact { background-color: #2196f3; }
+
+        /* Styles for content sections */
+        .content-section {
+            height: 100vh; /* Set height to 100% of viewport height */
+            padding: 50px;
+            color: #fff;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        /* Styles for navigation */
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Smoth scrol js</h1>
+        <h2>Example with colors</h2>
+		<h3>Click on navigation links</h3>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="content-section">
+        <h3>Home</h3>
+        <p>Welcome to website..</p>
+    </section>
+    <section id="about" class="content-section">
+        <h3>About</h3>
+        <p>Learn more about me.</p>
+    </section>
+    <section id="portfolio" class="content-section">
+        <h3>Portfolio</h3>
+        <p>View my projects.</p>
+    </section>
+    <section id="contact" class="content-section">
+        <h3>Contact</h3>
+        <p>Get in touch with me.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 example. footer.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
